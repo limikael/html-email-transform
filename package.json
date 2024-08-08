@@ -1,0 +1,20 @@
+{
+  "name": "html-email-transform",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "type": "module",
+  "dependencies": {
+    "css": "^3.0.0",
+    "css-expression": "^0.0.8",
+    "txml": "^5.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^5.2.0"
+  },
+  "exports": {
+    ".": "./src/main/html-email-transform.js"
+  }
+}

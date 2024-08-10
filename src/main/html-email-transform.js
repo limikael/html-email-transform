@@ -7,6 +7,9 @@ export function transformHtmlEmail(html, {css, remSize}={}) {
 	if (!remSize)
 		remSize=16;
 
+	/*console.log("parsing css");
+	console.log(css);*/
+
 	let rules=parseCssRules(css);
 	let wrapperDeclarations=getMatchingCssDeclarations(rules,["body","html","*"]);
 	wrapperDeclarations["font-size"]=remSize+"px";

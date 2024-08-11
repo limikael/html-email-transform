@@ -1,6 +1,6 @@
 {
   "name": "html-email-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "test": "jasmine"
